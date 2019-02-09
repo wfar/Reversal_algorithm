@@ -40,7 +40,7 @@ class Rev:
         
         cur_d = self.dist(self.clist[-1], x, y, fn )
 
-        for i in self.clist[:-2]:
+        for i in self.clist[:-1]:
 
             prev_d = self.dist(i, x, y, fn)
 
