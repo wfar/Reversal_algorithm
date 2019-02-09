@@ -93,7 +93,7 @@ class Rev:
                         count += 1
                         continue
                         
-                    if count < 19:
+                    if count < 20:
                         self.clist.append( [row[1], row[2]] )
                         count += 1
                         mint += 1
